@@ -17,7 +17,7 @@ jsdelivr = 0
 cnpmjs = 0
 size_limit = 1024 * 1024 * 1024 * 4  # 允许的文件大小，默认999GB，相当于无限制了 https://github.com/hunshcn/gh-proxy/issues/8
 HOST = '127.0.0.1'  # 监听地址，建议监听本地然后由web服务器反代
-PORT = 445  # 监听端口
+PORT = 7001  # 监听端口
 ASSET_URL = 'https://hunshcn.github.io/gh-proxy'  # 主页
 
 app = Flask(__name__)
